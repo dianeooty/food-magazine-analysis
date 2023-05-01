@@ -1,5 +1,5 @@
-# nosql-challenge
-> In this challenge for my Module 12 Data Analytics and Visualization Boot Camp, I was tasked with utilizing MongoDB to extract data for the editors of a food magazine.
+# food-magazine-analysis
+> Utilizing MongoDB to extract data for the editors of a food magazine adn evaluate the ratings data to determine where to focus future articles.
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -12,9 +12,9 @@
 
 
 ## General Information
-Part 1 of this challenge is to setup the database. Importing the establishments.json file and using Pymongo and Pretty Print libraries to create the database.  Confirm the database and collection were correctly added by checking the list of databases and collections. Then retrieving one document to confirm data was successfully imported.  Then I updated the collection by inserting a new document with the correct Business ID and Business Type. Next, I validated the datatypes and converted the incorrect string datatypes to decimal numbers.
+Part 1 of this project is to setup the database. Importing the establishments.json file and using Pymongo and Pretty Print libraries to create the database.  Confirm the database and collection were correctly added by checking the list of databases and collections. Then retrieving one document to confirm data was successfully imported.  Then I updated the collection by inserting a new document with the correct Business ID and Business Type. Next, I validated the datatypes and converted the incorrect string datatypes to decimal numbers.
 
-For Part 2 of this challenge, an analysis of the data was completed. Using Pymongo, I retrieved the establishments with the specified hygiene score of 20, establishments with London as the local authority and rating value of 4 or greater and the top 5 establishments with a rating value of 5 sorted by lowest hygiene score.  The results were then converted to dataframes.
+For Part 2 of this project is to complete an analysis of the data. Using Pymongo, I retrieved the establishments with the specified hygiene score of 20, establishments with London as the local authority and rating value of 4 or greater and the top 5 establishments with a rating value of 5 sorted by lowest hygiene score.  The results were then converted to dataframes.
 
 
 ## Technologies Used
@@ -41,7 +41,7 @@ Project is complete and no longer being worked on.
 
 
 ## Acknowledgements
-- Many thanks to my instructional staff and tutor, David Chao.
+- Many thanks to my instructional team and David Chao.
 
 
 ## Contact
